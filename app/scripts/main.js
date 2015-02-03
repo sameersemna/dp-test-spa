@@ -11,16 +11,17 @@ require.config({
         'angular-ui-router': '../bower_components/angular-ui-router/release/angular-ui-router.min',
         'angular-restangular': '../bower_components/restangular/dist/restangular.min',
         'angular-deckgrid': '../bower_components/angular-deckgrid/angular-deckgrid',
-        
+
         'highcharts': '../bower_components/highcharts-release/highcharts-all',
         'highcharts-more': '../bower_components/highcharts-release/highcharts-more',
         'highcharts-ng': '../bower_components/highcharts-ng/src/highcharts-ng',
-        
+
         'less': '../bower_components/less/dist/less.min',
-        
+
         'app': 'app',
         'app.functions': 'functions'
-    }, shim: {
+    },
+    shim: {
         'underscore': {
             'exports': '_'
         },
@@ -36,88 +37,82 @@ require.config({
         },
         'angular': {
             'deps': [
-                   'jQuery'
+                'jQuery'
             ],
             'exports': 'angular'
         },
-        'angular-route':  {
+        'angular-route': {
             'deps': [
-                    'angular'
+                'angular'
             ]
         },
-        'angular-ui-router':  {
+        'angular-ui-router': {
             'deps': [
-                     'angular'
+                'angular'
             ]
         },
-        'angular-restangular':  {
+        'angular-restangular': {
             'deps': [
-                    'angular',
-                    'underscore'
+                'angular',
+                'underscore'
             ]
         },
-        'angular-deckgrid':  {
+        'angular-deckgrid': {
             'deps': [
-                    'angular',
-                    'jQuery'
+                'angular',
+                'jQuery'
             ]
         },
-        'highcharts':  {
+        'highcharts': {
             'deps': [
-                    'jQuery'
+                'jQuery'
             ]
         },
-        'highcharts-more':  {
+        'highcharts-more': {
             'deps': [
-                    'highcharts'
+                'highcharts'
             ]
         },
-        'highcharts-ng':  {
+        'highcharts-ng': {
             'deps': [
-                    'jQuery',
-                    'angular',
-                    'highcharts',
-                    'highcharts-more'
+                'jQuery',
+                'angular',
+                'highcharts',
+                'highcharts-more'
             ]
         },
         'less': {},
         'app': {
             'deps': [
-                     'angular',
-                     'app.functions',
-                     'less'
+                'angular',
+                'app.functions',
+                'less'
             ],
             'exports': 'app'
         },
         'app.functions': {
             'deps': [
-                     'angular',
-                     'jQuery'
+                'angular',
+                'jQuery'
             ]
         }
-    }, priority: [
+    },
+    priority: [
         'angular'
     ]
 });
 
-//require([
-//    'backbone'
-//], function (Backbone) {
-//    Backbone.history.start();
-//    console.log('Hello from Backbone!');
-//});
 window.name = "NG_DEFER_BOOTSTRAP!";
-require( [
+require([
     'jQuery',
     'angular',
     'app'
-], function(jQuery, angular, app) {
+], function (jQuery, angular, app) {
     'use strict';
-    //console.dir(app);
     var $html = angular.element(document.getElementsByTagName('html')[0]);
 
-    angular.element().ready(function() {
+    angular.element().ready(function () {
         angular.bootstrap(document, ['app']);
     });
-    
+
 });

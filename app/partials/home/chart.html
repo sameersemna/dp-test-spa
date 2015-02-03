@@ -8,11 +8,11 @@
         </div>
         <div class="card-body">
             <label>Title:</label>&nbsp;<input ng-model="highchartsNG.title.text">
-            <div data-ng-if="showDynamicControls">
-                <button ng-click="addSeries()">Add Series</button>
-                <button ng-click="addPoints()">Add Points to Random Series</button>
-                <button ng-click="removeRandomSeries()">Remove Random Series</button>
-                <button ng-click="swapChartType()">Line/Bar</button>
+            <div data-ng-if="showDynamicControls" class="chartbuttons btn-group">
+                <button ng-click="addSeries()" class="btn pill">Add Series</button>
+                <button ng-click="addPoints()" class="btn pill">Add Points to Random Series</button>
+                <button ng-click="removeRandomSeries()" class="btn pill">Remove Random Series</button>
+                <button ng-click="swapChartType()" class="btn pill">Line/Bar</button>
             </div>
             <highchart id="chart1" config="highchartsNG"></highchart>
         </div>
