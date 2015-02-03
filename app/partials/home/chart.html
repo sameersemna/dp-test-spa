@@ -1,0 +1,20 @@
+<div class="chart_overlay">
+    <div class="chart_container">
+        <div class="card-header">
+            <span class="card-title">{{card_selected.title}}</span>
+            <span class="card-controls">
+                <a class="hint hint--top" data-hint="Back" data-ng-click="chartBack()"><span class="fs1" aria-hidden="true" data-icon="&#xe126;"></span></a>
+            </span>
+        </div>
+        <div class="card-body">
+            <label>Title:</label>&nbsp;<input ng-model="highchartsNG.title.text">
+            <div data-ng-if="showDynamicControls">
+                <button ng-click="addSeries()">Add Series</button>
+                <button ng-click="addPoints()">Add Points to Random Series</button>
+                <button ng-click="removeRandomSeries()">Remove Random Series</button>
+                <button ng-click="swapChartType()">Line/Bar</button>
+            </div>
+            <highchart id="chart1" config="highchartsNG"></highchart>
+        </div>
+    </div>    
+</div>

@@ -1,0 +1,19 @@
+<section data-ng-controller="HomeController">
+    
+    <div deckgrid class="deckgrid" source="cards">
+        <div id="card_{{card.id}}" class="a-card">
+            <div class="card-header">
+                <span class="card-title">{{card.title}}</span>
+                <span class="card-controls">
+                    <a class="hint hint--top" data-hint="Add New Chart" data-ng-click="mother.addNewChart()"><span class="fs1" aria-hidden="true" data-icon="&#xe04f;"></span></a>
+                    <a class="hint hint--top" data-hint="Maximize" data-ng-click="mother.cardMaximize(card)"><span class="fs1" aria-hidden="true" data-icon="&#xe10b;"></span></a>
+                    <a class="hint hint--top" data-hint="Close" data-ng-click="mother.cardClose(card)"><span class="fs1" aria-hidden="true" data-icon="&#xe084;"></span></a>
+                </span>
+            </div>
+            <div class="card-body">
+                <img src="" data-ng-src="{{card.src}}">
+            </div>
+        </div>
+    </div>
+    
+</section>

@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #AEAEAE;
+}
+
+.menuwrapper {
+    /*width: 1000px;*/
+    width: 90%;
+    height: auto;/*300px;*/
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.menuwrapper1 {
+    width: 100%;
+    height: auto;/*300px;*/
+    margin-left: auto;
+    margin-right: auto;
+}
+/*-------------------------------------STYLE OF MENU BAR STARTS HERE---------------------------------------------------------------------------------------------*/	
+.menu {
+    width: 100%;
+    height: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+/*background:#FF409F;*/
+    background: #000000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -border-radius: 5px;
+}
+
+/*-------------------------------------------------------SOCIAL MEDIA ICONS IN THE MENUBAR STARTS HERE---------------------------------------------------------------------------*/
+.linkscontainer {
+    width: 100%;/*180px;*/
+    height: 60px;
+    position: absolute;
+    /*right: 200px;*/
+    top: 0px;
+    background: #0098da;
+    border-radius: 5px;
+}
+
+.linkscontainer ul li {
+    width: 30px;
+    height: 30px;
+    padding-top: 15px;
+    float: left;
+    padding-left: 11px;
+}
+
+.linkscontainer ul li img {
+    width: 30px;
+    height: 30px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+}
+
+.linkscontainer ul li img:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+
+
+/*SHS*/
+.linkscontainer ul li a>div {
+    width: 30px;
+    height: 30px;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -ms-transition: all 1s;
+    
+    color:#fff;
+    font-size: 30px;
+}
+
+.linkscontainer ul li a>div:hover {
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+

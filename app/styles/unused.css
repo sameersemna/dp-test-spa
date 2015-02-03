@@ -1,0 +1,678 @@
+
+@media only screen and (max-width:854px),only screen and (max-device-width:854px) {
+/*optional -not necessary*/;
+    .menuwrapper {
+        width: 854px;
+
+    }
+
+    .menu {
+        width: 854px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+
+    .linkitem {
+        width: 854px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .linkitem ul {
+        position: absolute;
+        top: 62px;
+        left: 0px;
+        display: none;
+    }
+
+    .linkitem ul li {
+        width: 854px;
+        height: 60px;
+        float: none;
+        position: relative;
+        text-align: left;
+        background: #000000;
+        border-bottom: 1px solid #DADADA;
+        padding-left: 0px;
+    }
+
+    .socialmediacontainer {
+        width: 180px;
+        height: 60px;
+        position: absolute;
+        right: 300px;
+        top: 0px;
+        background: #FF5604;
+    }
+
+    .linkitem ul li ul {
+        z-index: 9999999999;
+        border: 1px solid #BEBEBE;
+    }
+
+    .linkitem ul li ul li,ul#secondul li,ul#thirdul li {
+        text-align: center;
+    }
+
+    ul#secondul,.linkitem ul ul,ul#thirdul {
+        top: 0px;
+        left: 100px;
+    }
+
+    ul#contactus {
+        top: -250px;
+        left: 100px;
+    }
+
+    .menu ul li:last-child {
+        border-bottom: none;
+    }
+
+    .responsiveicon {
+        display: block;
+    }
+
+    .searchbox {
+        display: none;
+    }
+
+    #responsive {
+        display: block;
+    }
+
+    .searchbox9 {
+        display: block;
+    }
+
+    ul#secondul ul ul ul,ul#thirdul ul ul ul,.linkitem ul  ul  ul ul ul {
+        position: absolute;
+        left: -40px;
+        top: -20px;
+    }
+}
+
+@media only screen and (max-width:800px),only screen and (max-device-width:800px) {
+/*optional -not necessary*/;    
+    .menuwrapper {
+        width: 800px;
+
+    }
+
+    .menu {
+        width: 800px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+
+    .linkitem {
+        width: 800px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .linkitem ul {
+        position: absolute;
+        top: 62px;
+        left: 0px;
+        display: none;
+    }
+
+    .linkitem ul li {
+        width: 800px;
+        height: 60px;
+        float: none;
+        position: relative;
+        text-align: left;
+        background: #000000;
+        border-bottom: 1px solid #DADADA;
+        padding-left: 0px;
+    }
+
+    .socialmediacontainer {
+        width: 180px;
+        height: 60px;
+        position: absolute;
+        right: 300px;
+        top: 0px;
+        background: #FF5604;
+    }
+
+    .linkitem ul li ul {
+        z-index: 9999999999;
+        border: 1px solid #BEBEBE;
+    }
+
+    ul#secondul,.linkitem ul ul,ul#thirdul {
+        top: 0px;
+        left: 100px;
+    }
+
+    ul#contactus {
+        top: -250px;
+        left: 100px;
+    }
+
+    .menu ul li:last-child {
+        border-bottom: none;
+    }
+
+    .responsiveicon {
+        display: block;
+    }
+
+    .searchbox {
+        display: none;
+    }
+
+    #responsive {
+        display: block;
+    }
+
+    .searchbox9 {
+        display: block;
+    }
+
+    ul#secondul ul ul ul,ul#thirdul ul ul ul,.linkitem ul  ul  ul ul ul {
+        position: absolute;
+        left: -40px;
+        top: -20px;
+    }
+}
+
+@media only screen and (max-width:720px),only screen and (max-device-width:720px) {
+/*optional -not necessary*/;    
+    .menuwrapper {
+        width: 720px;
+
+    }
+
+    .menu {
+        width: 720px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+
+    .linkitem {
+        width: 720px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .linkitem ul {
+        position: absolute;
+        top: 62px;
+        left: 0px;
+        display: none;
+    }
+
+    .linkitem ul li {
+        width: 720px;
+        height: 60px;
+        float: none;
+        position: relative;
+        text-align: left;
+        background: #000000;
+        border-bottom: 1px solid #DADADA;
+        padding-left: 0px;
+    }
+
+    .socialmediacontainer {
+        width: 180px;
+        height: 60px;
+        position: absolute;
+        right: 300px;
+        top: 0px;
+        background: #FF5604;
+    }
+
+    .linkitem ul li ul {
+        z-index: 9999999999;
+        border: 1px solid #BEBEBE;
+    }
+
+    ul#secondul,.linkitem ul ul,ul#thirdul {
+        top: 0px;
+        left: 100px;
+    }
+
+    ul#contactus {
+        top: -250px;
+        left: 100px;
+    }
+
+    .menu ul li:last-child {
+        border-bottom: none;
+    }
+
+    .responsiveicon {
+        display: block;
+    }
+
+    .searchbox {
+        display: none;
+    }
+
+    #responsive {
+        display: block;
+    }
+
+    .searchbox9 {
+        display: block;
+    }
+
+    ul#secondul ul,ul#thirdul ul,.linkitem ul  ul  ul {
+        position: absolute;
+        left: -40px;
+        top: -20px;
+    }
+}
+
+@media only screen and (max-width:640px),only screen and (max-device-width:640px) {
+/*optional -not necessary*/;    
+    .menuwrapper {
+        width: 640px;
+
+    }
+
+    .menu {
+        width: 640px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+
+    .linkitem {
+        width: 640px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .linkitem ul {
+        position: absolute;
+        top: 62px;
+        left: 0px;
+        display: none;
+    }
+
+    .linkitem ul li {
+        width: 640px;
+        height: 60px;
+        float: none;
+        position: relative;
+        text-align: left;
+        background: #000000;
+        border-bottom: 1px solid #DADADA;
+        padding-left: 0px;
+    }
+
+    .socialmediacontainer {
+        width: 180px;
+        height: 60px;
+        position: absolute;
+        right: 300px;
+        top: 0px;
+        background: #FF5604;
+    }
+
+    .linkitem ul li ul {
+        z-index: 9999999999;
+        border: 1px solid #BEBEBE;
+    }
+
+    ul#secondul,.linkitem ul ul,ul#thirdul {
+        top: 0px;
+        left: 100px;
+    }
+
+    ul#contactus {
+        top: -250px;
+        left: 100px;
+    }
+
+    .menu ul li:last-child {
+        border-bottom: none;
+    }
+
+    .responsiveicon {
+        display: block;
+    }
+
+    .searchbox {
+        display: none;
+    }
+
+    #responsive {
+        display: block;
+    }
+
+    .searchbox9 {
+        display: block;
+    }
+
+    ul#secondul ul,ul#thirdul ul,.linkitem ul  ul  ul {
+        position: absolute;
+        left: -40px;
+        top: -20px;
+    }
+}
+
+@media only screen and (max-width:480px),only screen and (max-device-width:480px) {
+/*optional -not necessary*/;
+    .menuwrapper {
+        width: 480px;
+
+    }
+
+    .menu {
+        width: 480px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+
+    .linkitem {
+        width: 480px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .linkitem ul {
+        position: absolute;
+        top: 62px;
+        left: 0px;
+        display: none;
+    }
+
+    .linkitem ul li {
+        width: 480px;
+        height: 60px;
+        float: none;
+        position: relative;
+        text-align: left;
+        background: #000000;
+        border-bottom: 1px solid #DADADA;
+        padding-left: 0px;
+    }
+
+    .socialmediacontainer {
+        width: 130px;
+        height: 60px;
+        position: absolute;
+        right: 300px;
+        top: 0px;
+        background: #FF5604;
+        overflow: hidden;
+    }
+
+    .linkitem ul li ul {
+        z-index: 9999999999;
+        border: 1px solid #BEBEBE;
+    }
+
+    ul#secondul,.linkitem ul ul,ul#thirdul {
+        top: 0px;
+        left: 100px;
+    }
+
+    ul#contactus {
+        top: -250px;
+        left: 100px;
+    }
+
+    .menu ul li:last-child {
+        border-bottom: none;
+    }
+
+    .responsiveicon {
+        display: block;
+    }
+
+    .searchbox {
+        display: none;
+    }
+
+    #responsive {
+        display: block;
+    }
+
+    .searchbox9 {
+        display: block;
+    }
+
+    ul#firstul {
+        overflow: auto;
+        width: 480px;
+    }
+
+    ul#secondul ul,ul#thirdul ul,.linkitem ul  ul  ul {
+        position: absolute;
+        left: -40px;
+        top: -20px;
+    }
+
+    ul#contactus {
+        left: 10px;
+    }
+}
+
+@media only screen and (max-width:400px),only screen and (max-device-width:400px) {
+/*optional -not necessary*/;    
+    .menuwrapper {
+        width: 400px;
+
+    }
+
+    .menu {
+        width: 400px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+
+    .linkitem {
+        width: 400px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .linkitem ul {
+        position: absolute;
+        top: 62px;
+        left: 0px;
+        display: none;
+    }
+
+    .linkitem ul li {
+        width: 400px;
+        height: 60px;
+        float: none;
+        position: relative;
+        text-align: left;
+        background: #000000;
+        border-bottom: 1px solid #DADADA;
+        padding-left: 0px;
+    }
+
+    .socialmediacontainer {
+        width: 180px;
+        height: 60px;
+        position: absolute;
+        right: 300px;
+        top: 0px;
+        background: #FF5604;
+        display: none;
+    }
+
+    .linkitem ul li ul {
+        z-index: 9999999999;
+        border: 1px solid #BEBEBE;
+    }
+
+    ul#secondul,.linkitem ul ul,ul#thirdul {
+        top: 0px;
+        left: 100px;
+    }
+
+    ul#contactus {
+        top: -250px;
+        left: 100px;
+    }
+
+    .menu ul li:last-child {
+        border-bottom: none;
+    }
+
+    .responsiveicon {
+        display: block;
+    }
+
+    .searchbox {
+        display: none;
+    }
+
+    #responsive {
+        display: block;
+    }
+
+    .searchbox9 {
+        display: block;
+    }
+
+    ul#firstul {
+        overflow: auto;
+        width: 400px;
+    }
+
+    ul#secondul ul,ul#thirdul ul,.linkitem ul  ul  ul {
+        position: absolute;
+        left: -40px;
+        top: -20px;
+    }
+
+    ul#contactus {
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width:320px),only screen and (max-device-width:320px) {
+/*optional -not necessary*/;
+    .menuwrapper {
+        width: 320px;
+
+    }
+
+    .menu {
+        width: 320px;
+        border-radius: 0px;
+        -webkit-border-radius: 0px;
+        -moz-border-radius: 0px;
+        -ms-border-radius: 0px;
+        -o-border-radius: 0px;
+    }
+
+    .linkitem {
+        width: 320px;
+        left: 0px;
+        top: 0px;
+    }
+
+    .linkitem ul {
+        position: absolute;
+        top: 62px;
+        left: 0px;
+        display: none;
+    }
+
+    .linkitem ul li {
+        width: 320px;
+        ;
+height: 60px;
+        float: none;
+        position: relative;
+        text-align: left;
+        background: #000000;
+        border-bottom: 1px solid #DADADA;
+        padding-left: 0px;
+    }
+
+    .socialmediacontainer {
+        display: none;
+    }
+
+    .linkitem ul li ul {
+        z-index: 9999999999;
+        border: 1px solid #BEBEBE;
+    }
+
+    ul#secondul,.linkitem ul ul,ul#thirdul {
+        top: 0px;
+        left: 100px;
+    }
+
+    ul#contactus {
+        top: -250px;
+        left: 100px;
+    }
+
+    .menu ul li:last-child {
+        border-bottom: none;
+    }
+
+    .responsiveicon {
+        display: block;
+    }
+
+    .searchbox {
+        display: none;
+    }
+
+    #responsive {
+        display: block;
+    }
+
+    .searchbox9 {
+        display: block;
+    }
+
+    ul#firstul {
+        overflow: auto;
+        width: 320px;
+    }
+
+    ul#secondul ul,ul#thirdul ul,.linkitem ul  ul  ul {
+        position: absolute;
+        left: -30px;
+        top: -10px;
+    }
+
+    ul#contactus {
+        left: -10px;
+        width: 310px;
+    }
+
+    .contactusform {
+        width: 280px;
+        right: 12px;
+    }
+
+    #inputs input[type=text],#inputs input[type=email],#inputs input[type=date],#message {
+        width: 250px;
+    }
+}
+
+
